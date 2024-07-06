@@ -1,0 +1,15 @@
+<p>{{ widgetInput }}</p>
+
+<!-- create directives to get values of field numbers -->
+<div class="row">
+  <input type="number" [(ngModel)]="number1" />
+  <input type="number" [(ngModel)]="number2" />
+</div>
+
+<!-- assign method to buttons -->
+<div class="row">
+  <button (click)="add()">Add</button>
+  <button (click)="subtract()">Subtract</button>
+  <button (click)="multiply()">Multiply</button>
+  <button (click)="divide()">Divide</button>
+</div>

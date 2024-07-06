@@ -1,0 +1,6 @@
+<!-- Call to calculator component -->
+<app-calculator-widget
+  [widgetInput]="'Widget Calculator'"
+  (widgetOutput)="printOutput($event)"
+></app-calculator-widget>
+<div>{{ widgetResult }}</div>
